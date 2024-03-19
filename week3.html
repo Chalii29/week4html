@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>   
+<body>
+
+<h1>Welcome to MUHAS University student's portal</h1>
+
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+    <label for="Date of birth">Date of birth:</label>
+    <input type="text" id="Date of birth" name="Date of birth" placeholder="Enter date of birth" required><br>
+    
+    
+    <legend>Gender:</legend>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+  
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br>
+    
+    <label for="Telephone">Telephone:</label>
+    <input type="tel" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required><br>
+    
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Enter your email address" required><br>
+
+    <label for="course">Course:</label><br>
+        <select id="course" name="course" required>
+            <option value="">Select Course</option>
+            <option value="medicine">Medicine</option>
+            <option value="pharmacy">Pharmacy</option>
+            <option value="laboratory">Laboratory sciences</option>
+            <option value="radiology">Radiology</option>
+            <option value="environment">Environmental health</option>
+        </select><br><br>
+
+    <input type="submit" value="Register">
+    <input type="button" value="Cancel" onclick="window.location.href='index.html'">
+
+
+</form>
+
+
+
+
+</body></html>
